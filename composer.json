@@ -1,16 +1,16 @@
 {
-  "name": "szana8/laraflow",
+  "name": "ext-rgonzalez/laraflow",
   "description": "Laravel workflow package for Eloquent models.",
   "license": "MIT",
   "authors": [
     {
-      "name": "Istvan Szana",
-      "email": "szana8@gmail.com"
+      "name": "Ricardo Gonzalez",
+      "email": "rgonzalez2520@gmail.com"
     }
   ],
   "minimum-stability": "dev",
   "require": {
-    "php": "^5.6.4 || ^7.0",
+    "php": "^5.6.4 || ^8.0",
     "illuminate/support": "5.4.* || 5.5.* || 5.6.* || 5.7.* || 6.* || 7.* || 8.*",
     "illuminate/database": "5.4.* || 5.5.* || 5.6.* || 5.7.* || 6.* || 7.* || 8.*"
   },
