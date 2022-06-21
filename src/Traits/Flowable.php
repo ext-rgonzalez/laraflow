@@ -75,7 +75,7 @@ trait Flowable
      */
     public function getActualStepName($sm_name = 'default')
     {
-        return $this->laraflowInstance($sm_name)->getConfiguration()['steps'][$this->laraflowInstance($sm_name)->getActualStep()]['text'];
+        return $this->laraflowInstance($sm_name)->getConfiguration()['steps'][$this->laraflowInstance($sm_name)->getActualStep()];
     }
 
     /**
