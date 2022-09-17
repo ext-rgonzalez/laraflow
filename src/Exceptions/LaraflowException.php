@@ -1,6 +1,6 @@
 <?php
 
-namespace szana8\Laraflow\Exceptions;
+namespace laraflow\Exceptions;
 
 class LaraflowException extends \Exception
 {

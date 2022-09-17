@@ -1,8 +1,8 @@
 <?php
 
-namespace szana8\Laraflow\Events;
+namespace laraflow\Events;
 
-use szana8\Laraflow\LaraflowInterface;
+use laraflow\LaraflowInterface;
 
 class LaraflowTransitionEvents
 {

@@ -3,7 +3,7 @@
 namespace DummyNamespace;
 
 use Illuminate\Support\Facades\Validator;
-use szana8\Laraflow\Validator\LaraflowValidatorInterface;
+use laraflow\Validator\LaraflowValidatorInterface;
 
 class DummValidator implements LaraflowValidatorInterface
 {

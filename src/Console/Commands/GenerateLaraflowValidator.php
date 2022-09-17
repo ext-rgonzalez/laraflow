@@ -1,6 +1,6 @@
 <?php
 
-namespace szana8\Laraflow\Console\Commands;
+namespace laraflow\Console\Commands;
 
 use Illuminate\Console\GeneratorCommand;
 

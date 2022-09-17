@@ -1,12 +1,12 @@
 <?php
 
-namespace szana8\Laraflow\Events;
+namespace laraflow\Events;
 
 abstract class LaraflowEvents
 {
-    const PRE_TRANSITION = 'szana8.laraflow.pre_transition';
+    const PRE_TRANSITION = 'laraflow.pre_transition';
 
-    const POST_TRANSITION = 'szana8.laraflow.post_transition';
+    const POST_TRANSITION = 'laraflow.post_transition';
 
-    const CAN_TRANSITION = 'szana8.laraflow.can_transition';
+    const CAN_TRANSITION = 'laraflow.can_transition';
 }

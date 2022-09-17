@@ -1,9 +1,9 @@
 <?php
 
-namespace szana8\Laraflow\Traits;
+namespace laraflow\Traits;
 
-use szana8\Laraflow\Laraflow;
-use szana8\Laraflow\LaraflowHistory;
+use laraflow\Laraflow;
+use laraflow\LaraflowHistory;
 
 trait Flowable
 {

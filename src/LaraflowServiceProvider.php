@@ -1,12 +1,12 @@
 <?php
 
-namespace szana8\Laraflow;
+namespace laraflow;
 
 use Illuminate\Contracts\Events\Dispatcher;
 use Illuminate\Support\ServiceProvider;
-use szana8\Laraflow\Console\Commands\GenerateLaraflowSubscriber;
-use szana8\Laraflow\Console\Commands\GenerateLaraflowValidator;
-use szana8\Laraflow\Traits\EventMap;
+use laraflow\Console\Commands\GenerateLaraflowSubscriber;
+use laraflowLaraflow\Console\Commands\GenerateLaraflowValidator;
+use laraflowLaraflow\Traits\EventMap;
 
 class LaraflowServiceProvider extends ServiceProvider
 {

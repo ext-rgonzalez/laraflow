@@ -2,7 +2,7 @@
 
 namespace DummyNamespace;
 
-use szana8\Laraflow\Events\LaraflowEvents;
+use laraflow\Events\LaraflowEvents;
 
 class DummyClass
 {

@@ -1,21 +1,14 @@
-<p align="center"><img src="https://banners.beyondco.de/Laraflow.png?theme=dark&packageName=szana8%2Flaraflow&pattern=architect&style=style_2&description=Laraflow+is+a+standard+workflow+package+for+Laravel+Eloquent+objects.+You+can+define+your+steps%2C+the+transition+between+them%2C+callbacks%2C+and+validators.&md=1&showWatermark=0&fontSize=100px&images=https%3A%2F%2Flaravel.com%2Fimg%2Flogomark.min.svg" width="100%"></p>
 # Laravel Workflow Package
 
 Laraflow is a standard workflow package for Laravel Eloquent objects. You can define your steps,
 the transition between them, callbacks, and validators.
-
-<p align="center">
-<a href="https://packagist.org/packages/szana8/laraflow"><img src="https://img.shields.io/packagist/dt/szana8/laraflow" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/szana8/laraflow"><img src="https://img.shields.io/packagist/v/szana8/laraflow" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/szana8/laraflow"><img src="https://img.shields.io/packagist/l/szana8/laraflow" alt="License"></a>
-</p>
 
 ### Installation (via composer)
 
 You can install the package via composer. The package require Laravel 5.5 or higher
 
 ```php
-composer require szana8/Laraflow
+composer require ext-rgonzalez/Laraflow
 ```
 
 You need to crate the necessary table for the historical data:
@@ -25,14 +18,13 @@ php artisan migrate
 ```
 
 After Laravel 5.5 you don't need to manually add the service provider to the config/app.php.
-You can find a sample test project with this package in here: https://github.com/szana8/laravel-workflow-package
 
 ### Configuration file
 
 After the installation you have to publish a configuration file, which contains a lot of necessary data for the package.
 
 ```
-php artisan vendor:publish --provider="szana8\Laraflow\LaraflowServiceProvider"
+php artisan vendor:publish --provider="ext-rgonzalez\Laraflow\LaraflowServiceProvider"
 ```
 
 #### Configuration array
@@ -56,7 +48,7 @@ In your config file _property_path_ attribute has to be the same value than the 
 You have to add the _Flowable_ trait to your Eloquent model to use the workflow.
 
 ```php
-use szana8\Laraflow\Traits\Flowable;
+use laraflow\Traits\Flowable;
 
 class SampleClass extends Model {
 
