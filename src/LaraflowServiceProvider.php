@@ -5,8 +5,8 @@ namespace laraflow;
 use Illuminate\Contracts\Events\Dispatcher;
 use Illuminate\Support\ServiceProvider;
 use laraflow\Console\Commands\GenerateLaraflowSubscriber;
-use laraflowLaraflow\Console\Commands\GenerateLaraflowValidator;
-use laraflowLaraflow\Traits\EventMap;
+use laraflow\Console\Commands\GenerateLaraflowValidator;
+use laraflow\Traits\EventMap;
 
 class LaraflowServiceProvider extends ServiceProvider
 {
