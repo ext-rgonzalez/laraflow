@@ -17,12 +17,8 @@ trait EventMap
             LaraflowHistoryManager::class,
         ],
 
-        LaraflowEvents::PRE_TRANSITION => [
-            //
-        ],
+        LaraflowEvents::PRE_TRANSITION => [],
 
-        LaraflowEvents::CAN_TRANSITION => [
-            //
-        ]
+        LaraflowEvents::CAN_TRANSITION => []
     ];
 }

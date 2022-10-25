@@ -16,8 +16,6 @@ class DummValidator implements LaraflowValidatorInterface
      */
     public function validate(array $attributes, array $rules)
     {
-       //
-
         return true;
     }
 }
