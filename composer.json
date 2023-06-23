@@ -10,8 +10,8 @@
   ],
   "minimum-stability": "dev",
   "require": {
-    "php": "^5.6.4 || ^8.1",
-    "illuminate/support": "^8"
+    "php": "^5.6.4 || ^8.2",
+    "illuminate/support": "v8.83.27"
   },
   "require-dev": {
     "mockery/mockery": "^0.9.6",
